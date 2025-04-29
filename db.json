@@ -33,12 +33,68 @@
       "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg"
     },
     {
-      "id": "48d1",
-      "title": "kasuni",
-      "author": "Irish author Anne Enright",
+      "id": "6",
+      "title": "1984",
+      "author": "George Orwell",
       "rating": "4.7",
-      "category": "Self Clear",
-      "coverImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtt2Wp-if8Zo-HvKkRUU2SyUEAR5wSeQic-X4hJLk3sIKiiAqG"
+      "category": "Dystopian",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "rating": "4.6",
+      "category": "Philosophical Fiction",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "rating": "4.8",
+      "category": "Science Fiction",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81ym3QUd3KL.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "rating": "4.9",
+      "category": "Fantasy",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/710+HcoP38L.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "rating": "4.6",
+      "category": "Psychology",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/61fdrEuPJwL.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "rating": "4.7",
+      "category": "History",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/713jIoMO3UL.jpg"
+    },
+    {
+      "id": "12",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "rating": "4.5",
+      "category": "Self-help",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "rating": "4.4",
+      "category": "Science Fiction",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91C5S-RQeeL.jpg"
     }
   ]
 }
