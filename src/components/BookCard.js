@@ -22,7 +22,7 @@ const BookCard = ({ book, onEdit, onDelete }) => {
           className="hover:scale-110 transition-transform"
           title="Edit Book"
         >
-          <EditIcon style={{ fontSize: '34px', color: '#4CAF50' }} /> {/* Green Pen */}
+          <EditIcon style={{ fontSize: '34px', color: '#4CAF50' }} /> 
         </button>
 
         {/* Delete Icon */}
@@ -31,7 +31,7 @@ const BookCard = ({ book, onEdit, onDelete }) => {
           className="hover:scale-110 transition-transform"
           title="Delete Book"
         >
-          <DeleteIcon style={{ fontSize: '34px', color: '#F44336' }} /> {/* Red Bin */}
+          <DeleteIcon style={{ fontSize: '34px', color: '#F44336' }} /> 
         </button>
       </div>
     </div>
