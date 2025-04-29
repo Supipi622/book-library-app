@@ -1,70 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Interactive Book Library
 
-## Available Scripts
+This project is a Book Library Web Application where users can add, edit, and delete books. It provides a search feature, view mode toggling (Grid/List), and displays books with their details.
 
-In the project directory, you can run:
+## Table of Contents
+* Technologies Used
 
-### `npm start`
+* Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* How to Use
 
-### `npm test`
+* Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Technologies Used
+React for building the UI components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tailwind CSS for styling the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Icons for icons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Custom Font (Poppins) for modern typography.
 
-### `npm run eject`
+API Calls to interact with a mock or real backend service for fetching and modifying book data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
+Follow these steps to get the project up and running locally.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy
+Edit
+git clone https://github.com/Supipi622/Book-Library-Application.git
+cd book-library
+Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy
+Edit
+npm install
+Run the development server:
 
-## Learn More
+bash
+Copy
+Edit
+npm start
+Your app will be running at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Project Structure
+/public: Contains the index.html file and other static assets (like images).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+/src: Contains the source code.
 
-### Code Splitting
+/components: Contains all the reusable components (Header, BookList, BookCard, etc.).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+/services: Contains the API functions to interact with backend services (getBooks, addBook, etc.).
 
-### Analyzing the Bundle Size
+/App.js: Main component where everything is connected.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+/index.css: Custom styles (if needed).
 
-### Making a Progressive Web App
+tailwind.config.js: Tailwind CSS configuration file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+How to Use
+1. Add a New Book
+Click on the "Add New Book" button.
 
-### Advanced Configuration
+A form will appear where you can enter details like Title, Author, Rating, and Category.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once submitted, the new book will be added to the list.
 
-### Deployment
+2. Search Books
+Use the search bar at the top to search books by Title or Author.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Edit a Book
+Click the Edit icon on any book card to open the form and modify the book’s information.
 
-### `npm run build` fails to minify
+Submit the form after making the changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Delete a Book
+Click the Delete icon on any book card to remove the book from the list.
+
+5. Toggle View Mode
+Use the Grid/List button to switch between grid view and list view.
+
+Contributing
+Fork the repository.
+
+Create a new branch (git checkout -b feature-name).
+
+Commit your changes (git commit -am 'Add new feature').
+
+Push to the branch (git push origin feature-name).
+
+Create a new Pull Request.
+

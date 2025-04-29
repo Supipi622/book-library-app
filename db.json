@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "rating": "4.5",
+      "category": "Classic",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "rating": "4.7",
+      "category": "Self-help",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "rating": "4.6",
+      "category": "Finance",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "rating": "4.9",
+      "category": "Fantasy",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg"
+    },
+    {
+      "id": "48d1",
+      "title": "kasuni",
+      "author": "Irish author Anne Enright",
+      "rating": "4.7",
+      "category": "Self Clear",
+      "coverImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtt2Wp-if8Zo-HvKkRUU2SyUEAR5wSeQic-X4hJLk3sIKiiAqG"
+    }
+  ]
+}
