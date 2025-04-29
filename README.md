@@ -1,5 +1,5 @@
 
-# 📚 Interactive Book Library
+### 📚 Interactive Book Library
 This project is a Book Library Web Application where users can add, edit, and delete books. It provides a search feature, view mode toggling (Grid/List), and displays books with their details.
 
 ## Table of Contents
@@ -42,7 +42,8 @@ Follow these steps to get the project up and running locally.
           
 This will run the app on http://localhost:3000/.
 
-## Optional: Backend Setup (Using JSON Server)
+### Optional: Backend Setup (Using JSON Server)
+
    If you want to save the book data persistently (like a real backend),
 you can run a local JSON server.
 
@@ -53,12 +54,13 @@ Install JSON Server globally (only if not installed):
       
 This will run the fake backend at http://localhost:3005/books.
 
-*** Important ***
+### *** Important ***
 Make sure your api.js is pointing to http://localhost:3005.
 
 
 
-## Project Structure
+### Project Structure
+
 /public: Contains the index.html file and other static assets (like images).
 
 /src: Contains the source code.
@@ -73,7 +75,8 @@ Make sure your api.js is pointing to http://localhost:3005.
 
 tailwind.config.js: Tailwind CSS configuration file.
 
-## How to Use
+### How to Use
+
 1. Add a New Book
 Click on the "Add New Book" button.
 
@@ -96,7 +99,8 @@ Click the Delete icon on any book card to remove the book from the list.
 Use the Grid/List button to switch between grid view and list view.
 
 
-## Contributing
+### Contributing
+
 Fork the repository.
 
 Create a new branch (git checkout -b feature-name).
