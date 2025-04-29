@@ -53,39 +53,38 @@ const Home = () => {
         toggleView={() => setViewMode(viewMode === "grid" ? "list" : "grid")}
       />
 
-      <div className="bg-gray-100 pt-24 pb-10 px-4 md:px-10 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-6 font-poppins">
-        {/* Left Side - Text & Button */}
-        <div className="flex-1 text-left md:pl-0 animate-slideInLeft">
-          <h1 className="text-4xl font-extrabold text-black mb-4 leading-tight animate-fadeInFast">
-            Knowledge Collection
-          </h1>
-          <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6 animate-fadeInMedium">
-            Welcome to Knowledge Collection — your personal digital library.
-            Easily organize, search, and manage all your favorite books in one
-            place. Whether you're a student, a reader, or a lifelong learner,
-            this app helps you keep your reading journey structured and
-            inspiring.
-          </p>
-          <button
-            onClick={() => {
-              setSelectedBook(null);
-              setShowForm(true);
-            }}
-            className="bg-blue-600 text-white font-medium px-6 py-2 rounded-lg hover:bg-blue-700 transition animate-fadeInSlow"
-          >
-            Add New Book
-          </button>
-        </div>
+<div className="bg-gray-100 pt-24 pb-10 px-4 md:px-10 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-6 font-poppins">
+  {/* Left Side - Text & Button */}
+  <div className="flex-1 text-left md:pl-0 animate-slideInLeft">
+    <h1 className="text-4xl font-extrabold text-black mb-4 leading-tight animate-fadeInFast">
+      Knowledge Collection
+    </h1>
+    <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6 animate-fadeInMedium">
+      Welcome to Knowledge Collection — your personal digital library. Easily organize, search, 
+      and manage all your favorite books in one place. Whether you're a student, a reader, or a 
+      lifelong learner, this app helps you keep your reading journey structured and inspiring.
+    </p>
+    <button
+      onClick={() => {
+        setSelectedBook(null);
+        setShowForm(true);
+      }}
+      className="bg-blue-600 text-white font-medium px-6 py-2 rounded-lg hover:bg-blue-700 transition animate-fadeInSlow"
+    >
+      Add New Book
+    </button>
+  </div>
 
-        {/* Right Side - Image */}
-        <div className="flex-1 w-full">
-          <img
-            src="/HomeImage.jpg"
-            alt="Knowledge Collection"
-            className="w-full h-auto max-h-96 object-cover rounded-lg shadow-md"
-          />
-        </div>
-      </div>
+  {/* Right Side - Image */}
+  <div className="flex-1 w-full">
+    <img
+      src="/HomeImage.jpg"
+      alt="Knowledge Collection"
+      className="w-full h-auto max-h-96 object-cover rounded-lg shadow-md"
+    />
+  </div>
+</div>
+
 
       {/* Popup Modal for Form */}
       <Modal

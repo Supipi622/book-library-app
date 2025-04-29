@@ -2,4 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animate-slideInLeft {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  .animate-fadeInFast {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  .animate-fadeInMedium {
+    animation: fadeIn 1.2s ease-out forwards;
+  }
+  .animate-fadeInSlow {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
 
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
