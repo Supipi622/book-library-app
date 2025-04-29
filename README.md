@@ -1,6 +1,5 @@
 
-# Interactive Book Library
-
+### 📚 Interactive Book Library
 This project is a Book Library Web Application where users can add, edit, and delete books. It provides a search feature, view mode toggling (Grid/List), and displays books with their details.
 
 ## Table of Contents
@@ -16,41 +15,52 @@ This project is a Book Library Web Application where users can add, edit, and de
 
 
 ### Technologies Used
-React for building the UI components.
+ - React for building the UI components.
 
-Tailwind CSS for styling the application.
+ - Tailwind CSS for styling the application.
 
-React Icons for icons.
+ - React Icons for icons.
 
-Custom Font (Poppins) for modern typography.
+ - Custom Font (Poppins) for modern typography.
 
-API Calls to interact with a mock or real backend service for fetching and modifying book data.
+ - API Calls to interact with a mock or real backend service for fetching and modifying book data.
 
 ### Installation
 Follow these steps to get the project up and running locally.
 
-Clone the repository:
+1 . Clone the repository:
+          git clone https://github.com/Supipi622/book-library-app.git
+          
+2 . Go into the project folder:
+          cd your-project-folder
+          
+3. Install dependencies:
+          npm install
+          
+4. Start the React app:
+          npm start
+          
+This will run the app on http://localhost:3000/.
 
-bash
-Copy
-Edit
-git clone https://github.com/Supipi622/Book-Library-Application.git
-cd book-library
-Install dependencies:
+### Optional: Backend Setup (Using JSON Server)
 
-bash
-Copy
-Edit
-npm install
-Run the development server:
+   If you want to save the book data persistently (like a real backend),
+you can run a local JSON server.
 
-bash
-Copy
-Edit
-npm start
-Your app will be running at http://localhost:3000.
+Install JSON Server globally (only if not installed):
+       npm install -g json-server
+       Start the server:
+       npx json-server --watch db.json --port 3005
+      
+This will run the fake backend at http://localhost:3005/books.
 
-Project Structure
+### *** Important ***
+Make sure your api.js is pointing to http://localhost:3005.
+
+
+
+### Project Structure
+
 /public: Contains the index.html file and other static assets (like images).
 
 /src: Contains the source code.
@@ -65,7 +75,8 @@ Project Structure
 
 tailwind.config.js: Tailwind CSS configuration file.
 
-How to Use
+### How to Use
+
 1. Add a New Book
 Click on the "Add New Book" button.
 
@@ -87,7 +98,9 @@ Click the Delete icon on any book card to remove the book from the list.
 5. Toggle View Mode
 Use the Grid/List button to switch between grid view and list view.
 
-Contributing
+
+### Contributing
+
 Fork the repository.
 
 Create a new branch (git checkout -b feature-name).
