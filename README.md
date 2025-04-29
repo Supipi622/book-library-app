@@ -99,15 +99,3 @@ Click the Delete icon on any book card to remove the book from the list.
 Use the Grid/List button to switch between grid view and list view.
 
 
-### Contributing
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature-name).
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-name).
-
-Create a new Pull Request.
-
